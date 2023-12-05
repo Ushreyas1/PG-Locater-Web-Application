@@ -1,0 +1,175 @@
+/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+
+/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
+
+@import url(animate.min.css);
+@import url(normalize.css);
+@import url(meanmenu.css);
+@import url(owl.carousel.min.css);
+@import url(slick.css);
+@import url(jquery-ui.css);
+@import url(nice-select.css);
+
+/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+
+* {
+    box-sizing: border-box !important;
+    transition: ease all 0.5s;
+}
+
+.footer {
+    background-color: #212120;
+    text-align: center;
+}
+.footer .headinga h3 {
+    font-size: 20px;
+    display: block;
+    color: #fff;
+    max-width: 160px;
+    padding: 5px;
+    border-bottom: #fff solid 1px;
+    text-align: center;
+    margin: 0 auto;
+}
+.footer .headinga span {
+    font-size: 14px;
+    display: block;
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+.footer .headinga p {
+    font-size: 14px;
+    display: block;
+    color: #fff;
+}
+ul.link li {
+    display: inline-block;
+
+
+    padding-bottom: 2px;
+}
+ul.link li a {
+    color: #fff;
+    font-size: 14px;
+}
+ul.link li a:hover {
+    color: #308409;
+}
+.pdn-top-30 {
+    /*padding-top: 35px;*/
+}
+ul.location_icon {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /*padding-top: 5px;*/
+}
+ul.location_icon li {
+    float: left;
+    height: 60px;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-right: 20px;
+}
+ul.location_icon li:last-child {
+    padding-right: 0px;
+}
+ul.location_icon span {
+    font-size: 17px;
+    font-weight: 400;
+}
+.copyright {
+    background: #e0e5e5;
+    padding: 20px 0px 20px 0;
+}
+.copyright p {
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.copyright a {
+    color: #000;
+}
+.copyright a:hover {
+    color: #000;
+}
+.btn-primary.focus,
+.btn-primary:focus {
+    box-shadow: inherit;
+}
+
+/*--------------------------------------------------------------------- inner_page css ---------------------------------------------------------------------*/
+.about_page .about {
+    margin-bottom: 90px;
+}
+.about-bg {
+    background-color: #b32137;
+    margin-top: 90px;
+}
+.Books-bg .titlepage {
+    margin-top: 90px;
+}
+.Books-bg .read-more {
+    margin-bottom: 90px;
+}
+.about-bg .abouttitle h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 45px;
+    padding: 40px 0;
+    font-weight: 500;
+    text-align: center;
+}
+.contact-page .Contact {
+    margin-top: 0px;
+}
+.contact-page .form-control {
+    margin-bottom: 20px;
+}
+
+/** slider arrow **/
+.carousel-control-prev {
+    left: inherit;
+}
+#main_slider .carousel-control-prev,
+#main_slider .carousel-control-next {
+    width: 55px;
+    height: 55px;
+    background: #e0e5e5;
+    opacity: 1;
+    font-size: 30px;
+    color: #000;
+    border-radius: 30px;
+}
+#main_slider .carousel-control-prev:hover,
+#main_slider .carousel-control-next:hover,
+#main_slider .carousel-control-prev:focus,
+#main_slider .carousel-control-next:focus {
+    background: #308409;
+    color: #fff;
+}
+#main_slider a.carousel-control-prev {
+    position: absolute;
+    right: 82px;
+    bottom: 10px;
+    top: inherit;
+}
+#main_slider a.carousel-control-next {
+    position: absolute;
+    right: 40px;
+    top: inherit;
+    bottom: 10px;
+}
