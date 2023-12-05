@@ -1,0 +1,46 @@
+.projectTitle{
+    background-color: #138496;
+    font-size: 25px;
+    color: #ffffff;
+    padding: 05px;
+    font-family: monospace;
+
+}
+
+.maindiv{
+    border-radius: 10px;
+    /*border: 1px solid #040505;*/
+    height: 100%;
+
+}
+
+.logindiv{
+    margin-top: 25px;
+
+}
+
+html,body{
+    height: 100%;
+    widows: 100%;
+}
+
+footer{
+    background-color: #117a8b;
+    padding: 5px;
+    color: #ffffff;
+
+}
+
+.index {
+    background-image: url(../images/first.jpg);
+    background-size: 100%;
+}
+
+.login {
+    background-image: url(../images/second.jpg);
+    background-size: 100%;
+}
+
+.home {
+    background-image: url(../images/five.jpg);
+}
